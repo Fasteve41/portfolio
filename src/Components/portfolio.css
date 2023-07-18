@@ -80,7 +80,7 @@ header .fa{
 .Banner{
     flex-basis: 50%;
     height: 400px;
-    color: #fff;
+    color: #f7f1f1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
