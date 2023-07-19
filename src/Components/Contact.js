@@ -1,10 +1,9 @@
 import React from 'react'
-import {motion} from "framer-motion"
 import { FaGithub, FaFacebook, FaInstagram, FaTwitter,} from "react-icons/fa";
 
 function Contact() {
   return (
-    <motion.div name= "contact" className='Contact' 
+    <div name= "contact" className='Contact' 
        >
       <div className='Contact-1'>
         <h1>CONTACT</h1>
@@ -22,7 +21,7 @@ function Contact() {
         <input type='message' placeholder='Message' className='message'/>
         <button>Send Message</button>
       </div> 
-    </motion.div>
+    </div>
     
   )
 }

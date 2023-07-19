@@ -43,7 +43,7 @@ function Projects() {
           backgroundPosition:"center",
           }}>
           <img src='./images/pic0.png'/>
-          <h3>HTML,CSS,Javascript</h3>
+          <h3>Shoe Shop<br/>HTML,CSS,Javascript</h3>
         </div>
       </div>
     </div>

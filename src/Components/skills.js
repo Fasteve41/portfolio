@@ -1,21 +1,21 @@
 import React,{useEffect} from 'react'
 import './portfolio.css'
-import {motion} from 'framer-motion';
+import {motion, useAnimation} from 'framer-motion';
 import {FaGithub, FaJs, FaReact, FaSass} from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
-import { useAnimation } from 'framer-motion';
+/*import { useAnimation } from 'framer-motion';*/
 import {Link} from "react-scroll"
 
 function Skills() {
   
-  const { ref, inView} = useInView();
+ /* const { ref, inView} = useInView();
   const animation = useAnimation();
 
   useEffect(() => {
     console.log("use effect hook, inView = ", inView);
     if(inView){
       animation.start({
-        x: "0", opacity: 1,once: true,
+        x: "0", opacity: 1,
         transition : {
           delay: 0.3 , duration: 0.5, type: 'spring' , stiffness: "120" 
         },
@@ -23,7 +23,8 @@ function Skills() {
     } else{
       animation.start({x: "200px" , opacity: 0 })
     }
-  })
+  })*/
+const animation = useAnimation()
 
   return (
     <div name= "skills" className='Skill' >
@@ -49,7 +50,7 @@ function Skills() {
             transition={{delay: 0.5, duration:0.5}}>
             Skills
           </motion.h1>
-          <div ref= {ref} className='set'>
+          <div className='set'>
             <motion.div 
               className='set-box'
               animate = {animation}

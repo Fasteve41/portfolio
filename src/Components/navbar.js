@@ -16,7 +16,7 @@ function Navbar() {
       <motion.header
         initial ={{ y: "-100px" }}
         animate ={{ y: "0" }}
-        transition = {{ delay: 0.3, duration: 0.3}}
+        transition = {{ delay: 0.3, duration: 0.3,type: 'spring' , stiffness: "100" }}
         >
         <Link to ="banner" smooth={true} duration={500}> <h3 className ="logo">Fa<span className=''>Steve</span></h3></Link>
 
@@ -25,11 +25,11 @@ function Navbar() {
           <Link to = "skills" smooth={true} duration={500} onClick={showNavbar}> <a href=''>Skills</a></Link>
           <Link to="project" smooth={true} duration={500} onClick={showNavbar}> <a href=''>Projects</a></Link>
           <Link to="contact" smooth={true} duration={500} onClick={showNavbar}> <a href=''>Contact</a></Link>
-        <button onClick = {showNavbar} className ="nav-btn close-btn">
-          <FaTimes/>
-        </button>
+          <button onClick = {showNavbar} className ="nav-btn close-btn">
+            <FaTimes/>
+          </button>
         </nav>
-        <button onClick = {showNavbar} className ="nav-btn">
+        <button onClick = {showNavbar} className ="nav-btn open-btn">
           <FaBars />
         </button>
       </motion.header>
