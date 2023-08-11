@@ -3,12 +3,12 @@
     list-style: none;
     background: rgb(10, 10, 10);
     padding: 0 10%;
-    width: 100%;
+    max-width: 100%;
 }
 .navbar{
     background-color: rgb(10, 10, 10);
     height: 100px;
-    width: 100%;
+    max-width: 100%;
     z-index: 4000;
     top: 0;
     position: sticky;
@@ -31,7 +31,8 @@ header {
 nav{
     display: flex;
     align-items: center;
-   margin-left: 350px;
+    position: absolute;
+    right: 0px;
 }
 nav a{
     color: rgb(238, 232, 232);
@@ -117,8 +118,8 @@ header .fa{
 .Banner-image img{
     max-width: 100%;
     position: absolute;
-    left: -5px;
-    top: -10px;
+    left: -3px;
+    top: -50px;
     border-radius: 10px;
 }
 .Skill{
@@ -126,6 +127,7 @@ header .fa{
    display: flex;
    justify-content: space-between;
    padding-top: 100px;
+   max-width: 100%;
 }
 .skill-first{
    flex-basis: 50%;
@@ -341,7 +343,7 @@ button:hover{
 @media only screen and (max-width: 856px){
     header{
         position: relative;
-        width: 100%;
+      
     }
     header nav{
         position: fixed;
@@ -380,13 +382,13 @@ button:hover{
     }
     header .open-btn{
         position: absolute;
-        right: 0px;
+        right: -30px;
     }
     header .close-btn{
         position: absolute;
         top: 20px;
         color: #fff;
-        right: 0px;
+        right: -30px;
     }
     .hero{
         display: flex;

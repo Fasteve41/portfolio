@@ -8,7 +8,7 @@ function Navbar() {
     const navRef = useRef();
     
     const showNavbar= (e) => {
-      navRef.current.classList.toggle("responsive_nav");
+      navRef.current.classList.toggle ("responsive_nav");
     }
 
     return (

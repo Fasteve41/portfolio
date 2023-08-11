@@ -3,8 +3,7 @@ import { FaGithub, FaFacebook, FaInstagram, FaTwitter,} from "react-icons/fa";
 
 function Contact() {
   return (
-    <div name= "contact" className='Contact' 
-       >
+    <div name= "contact" className='Contact' data-aos= 'fade-up' data-aos-duration ='1000' >
       <div className='Contact-1'>
         <h1>CONTACT</h1>
         <h4>Great vision without great people is irrelevant.<br/>Let's work together.Love to hear from you<br/>Get in touch</h4>
@@ -22,7 +21,6 @@ function Contact() {
         <button>Send Message</button>
       </div> 
     </div>
-    
   )
 }
 
