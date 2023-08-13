@@ -3,8 +3,6 @@ import "./portfolio.css"
 import {motion} from 'framer-motion';
 import {Link} from "react-scroll"
 
-
-
 function Banner (){
   return (
     <div name ="banner" className='hero'>

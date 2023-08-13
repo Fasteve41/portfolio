@@ -55,36 +55,30 @@ function Skills() {
               animate = {animation}
             >
               <h2>Javascript  <FaJs className='arrow'/> </h2>
-              <p>Create responsive and user-friendly interface to efficiently showcase clients products or services,<span>Learn more</span></p> 
+              <p>Create responsive and user-friendly interface to efficiently showcase clients products or services.</p> 
             </motion.div>
             <motion.div 
               className='set-box'
               animate ={animation}
           >
               <h2>React <FaReact className='arrow'/></h2>
-              <p>I use React to create dynamic and interactive web pages that load fast and has great user experience.<span>Learn more</span></p> 
-            </motion.div>
-            <motion.div 
-              className='set-box'
-              animate ={animation}
-            >
-              <h2>Sass <FaSass className='arrow'/></h2>
-              <p>I write clean,stable,Powerful and stable CSS to help in working quickly and efficiently.<span>Learn more</span></p>
-            </motion.div>
-            <motion.div 
-              className='set-box'
-              animate ={animation}
-             >
-              <h2>Git & Github <FaGithub className='arrow'/></h2>
-              <p>I write clean,stable,Powerful and stable CSS to help in working quickly and efficiently.<span>Learn more</span></p>
+              <p>I use React to create dynamic and interactive web pages that load fast and has great user experience.</p> 
             </motion.div>
             <motion.div 
               className='set-box'
               animate ={animation}
              >
               <h2>React Native<FaAppStore className='arrow'/></h2>
-              <p>I create and efficiently.<span>Learn more</span></p>
+              <p>I create fast and efficient robust mobile aapplicatons across IOS and Andriod.</p>
             </motion.div>
+            <motion.div 
+              className='set-box'
+              animate ={animation}
+             >
+              <h2>Git & Github <FaGithub className='arrow'/></h2>
+              <p>I write clean,stable,Powerful and stable CSS to help in working quickly and efficiently.</p>
+            </motion.div>
+            
           </div>
         </div>
     </div>

@@ -197,7 +197,7 @@ button:hover{
     margin-left: 30px;
     color: rgb(45,119,64);
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .Contact{
     padding: 50px 0%;
@@ -248,6 +248,10 @@ button:hover{
 .Contact-2 button:hover{
     color: rgb(152, 199, 164);
 }
+.Contact-2 h4{
+    margin-top: 70px;
+    margin-right: 100px;
+}
 .socials{
     display: flex;
 }
@@ -276,11 +280,11 @@ button:hover{
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 .pro-text{
     text-align: start;
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 .pro-text h1{
     color: rgb(45, 119, 64);
@@ -322,6 +326,7 @@ button:hover{
 .pro-img:hover h3{
     visibility: visible;
     bottom: 10px;
+    color: #332d2d;
 }
 .pro-img img{
     height: 200px;
@@ -339,11 +344,9 @@ button:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 30px;
 }
-
 @media only screen and (max-width: 856px){
     header{
         position: relative;
-      
     }
     header nav{
         position: fixed;
@@ -400,6 +403,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         flex-basis: 50%;
+        margin-bottom: 50px;
     }
     .Banner-image{
         flex-basis: 50%;
@@ -437,6 +441,10 @@ button:hover{
     }
     .Contact-2 button{
         margin-right: 80px;
+    }
+    .Contact-2 h4{
+        margin-top: 70px;
+        margin-right: 0px;
     }
     .skill-first img{
         padding-left: 0px;
